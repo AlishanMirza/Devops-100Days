@@ -1,0 +1,6 @@
+#Disable direct SSH root login
+vi /etc/ssh/sshd_config
+
+NoPermitRoot no
+
+systemctl restart sshd
