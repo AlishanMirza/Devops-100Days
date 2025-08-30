@@ -1,3 +1,3 @@
 #Create a user with expire date
 
-adduser --expire-date 2025-08-31 alishan
+useradd --expiredate 2025-08-31 alishan
