@@ -1,0 +1,3 @@
+#User with non-interactive shell
+
+adduser alishan -s /sbin/nologin
