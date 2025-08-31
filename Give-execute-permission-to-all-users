@@ -1,0 +1,12 @@
+#On App server-3 give execution of script permission to all the users.
+
+chmod u+x /tmp/xfusioncorp.sh
+
+or
+
+chmod 100 /tmp/xfusioncorp.sh
+
+to group and other as well?
+
+chmod +x  111 /tmp/xfusioncorp.sh
+
