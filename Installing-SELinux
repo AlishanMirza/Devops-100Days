@@ -1,0 +1,7 @@
+#Installing the packages first
+
+sudo dnf install -y selinux-policy selinux-policy-targeted policycoreutils policycoreutils-python-utils
+
+#To disable, first backup old config
+sudo dnf install -y selinux-policy selinux-policy-targeted policycoreutils policycoreutils-python-utils
+vi /etc/selinux/config  -  Change SELinux=disable -> verify -> :wq
