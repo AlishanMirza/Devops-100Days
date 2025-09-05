@@ -1,1 +1,7 @@
-.db troubleshooting 
+#Logs were showing /var/lib/myqld/ - should be empty 
+
+#Re-Initialized the mariadb using 
+sudo mariadb-install-db --user=mysql --ldata=/var/lib/mysql
+
+#Then start the mariadb services
+sudo systemctl start mariadb or restart
